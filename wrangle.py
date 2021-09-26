@@ -92,7 +92,7 @@ def wrangle_zillow():
         else 'Ventura')
 
     # drop unnecessary columns
-    dropcols = ['parcelid',
+    dropcols = [
          'calculatedbathnbr',
          'finishedsquarefeet12',
          'fullbathcnt',
