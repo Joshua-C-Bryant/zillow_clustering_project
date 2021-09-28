@@ -31,7 +31,7 @@ Here is a random GIF as a placeholder.
 # Table of Contents
 
 
-- [Project Title](#project-title)
+- [Project Title](#Zillow-Clustering-Project)
 - [Executive Summary](#demo-preview)
 - [Project Description and Goals](#table-of-contents)
 - [Initial Hypothesis](#contribute)
