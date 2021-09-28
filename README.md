@@ -30,7 +30,7 @@ Our goal for this project was to find drivers of logerror in Zillow's Zestimate 
 # Initial Hypothesis
 [(Back to top)](#table-of-contents)
 - Hypothesis 1: Is logerror significantly different for properties in LA Country vs Orange County vs Ventura County?
-- Hypothesis 2: Is logerror significantly different for properties in Orange County vs the population of homes?
+- Hypothesis 2: Is logerror significantly different for properties in Orange County vs the rest of the population of homes?
 - Hypothesis 3: Is there a correlation between square feet and logerror?
 - Hypothesis 4: Is there a correlation between logerror and yearbuilt?
 - Hypothesis 5: Is there a correlation between longitude and logerror?
