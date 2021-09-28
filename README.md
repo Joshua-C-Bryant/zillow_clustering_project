@@ -1,15 +1,9 @@
-<!-- Add banner here -->
-
 # Zillow Clustering Project
 
-<!-- Add buttons here -->
-
-<!-- Describe your project in brief -->
 Our goal for this project was to find drivers of logerror in Zillow's Zestimate to better predict housing prices. To do this, we were to use Machine Learning models with clustering and regression algorhithms. 
 
 # Executive Summary
 
-<!-- Add a demo for your project -->
 
 - I was not able to make use of clusters for my model
 - My top features used ended up being: bedroomcnt, buildingqualitytypeid, and longitude based on a mix of features chosen by RFE and heatmap correlation
@@ -22,26 +16,26 @@ Our goal for this project was to find drivers of logerror in Zillow's Zestimate 
     - While my model ultimately did not beat the baseline in my test, I do think these features should be looked into more and with more time, could be engineered better to predict unseen data
 
 
-<!-- After you have written about your project, it is a good idea to have a demo/preview(**video/gif/screenshots** are good options) of your project so that people can know what to expect in your project. You could also add the demo in the previous section with the product description.
-
-Here is a random GIF as a placeholder.
-
-![Random GIF](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif) -->
-
 # Table of Contents
 
 
 - [Project Title](#Zillow-Clustering-Project)
-- [Executive Summary](#demo-preview)
-- [Project Description and Goals](#table-of-contents)
-- [Initial Hypothesis](#contribute)
-- [Deliverables](#installation)
-- [Data Dictionary](#usage)
-- [Project Planning](#development)
-- [Instructions for Reproducing](#license)
+- [Executive Summary](#Executive-Summary)
+- [Initial Hypothesis](#Initial-Hypothesis)
+- [Deliverables](#Deliverables)
+- [Data Dictionary](#Data-Dictionary)
+- [Project Planning](#Project-Planning)
+- [Instructions for Reproducing](#Instructions-for-Reproducing)
 
 # Initial Hypothesis
 [(Back to top)](#table-of-contents)
+- Hypothesis 1: Is logerror significantly different for properties in LA Country vs Orange County vs Ventura County?
+- Hypothesis 2: Is logerror significantly different for properties in Orange County vs the population of homes?
+- Hypothesis 3: Is there a correlation between square feet and logerror?
+- Hypothesis 4: Is there a correlation between logerror and yearbuilt?
+- Hypothesis 5: Is there a correlation between longitude and logerror?
+- Hypothesis 6: Is there a correlation between buildingqualitytypeid and logerror?
+
 
 <!-- This is where you can let people know how they can **contribute** to your project. Some of the ways are given below.
 
@@ -119,9 +113,6 @@ Also this shows how you can add subsections within a section. -->
 # Instructions for Reproducing
 [(Back to top)](#table-of-contents)
 
-<!-- Adding the license to README is a good practice so that people can easily refer to it.
-
-Make sure you have added a LICENSE file in your project folder. **Shortcut:** Click add new file in your root of your repo in GitHub > Set file name to LICENSE > GitHub shows LICENSE templates > Choose the one that best suits your project!
-
-I personally add the name of the license and provide a link to it like below. -->
+You will need this repository and access to Codeup's Zillow data set to be able to recreate this project.
+All functions are available in my prepare.py and explore.py scripts
 
